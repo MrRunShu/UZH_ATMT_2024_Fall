@@ -30,7 +30,7 @@ def get_args():
 
     # Add beam search arguments
     parser.add_argument('--beam-size', default=5, type=int, help='number of hypotheses expanded in beam search')
-    # alpha hyperparameter for length normalization (described as lp in https://arxiv.org/pdf/1609.08144.pdf equation 14)
+    # alpha hyperparameter for length normalization (described as lp in equation 14)
     parser.add_argument('--alpha', default=0.0, type=float, help='alpha for softer length normalization')
 
     return parser.parse_args()
@@ -61,6 +61,7 @@ def main(args):
                                               batch_sampler=BatchSampler(test_dataset, 9999999,
                                                                          args.batch_size, 1, 0, shuffle=False,
                                                                          seed=args.seed))
+
     # Build model and criterion
     model = models.build_model(args, src_dict, tgt_dict)
     if args.cuda:
