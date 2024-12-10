@@ -173,9 +173,6 @@ def main(args):
                     # __QUESTION 4: How are "add" and "add_final" different? 
                     # What would happen if we did not make this distinction?
 
-                    # Skip expansion if the node is finished
-                    if node.finished:
-                        continue
 
                     # Store the node as final if EOS is generated
                     if next_word[-1] == tgt_dict.eos_idx:
