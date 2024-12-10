@@ -1,0 +1,84 @@
+BLEU score for beam size 1:
+{
+ "name": "BLEU",
+ "score": 17.1,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.4.3",
+ "verbose_score": "44.2/22.1/12.6/7.0 (BP = 1.000 ratio = 1.342 hyp_len = 5222 ref_len = 3892)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.4.3"
+}
+
+BLEU score for beam size 5:
+{
+ "name": "BLEU",
+ "score": 20.0,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.4.3",
+ "verbose_score": "50.6/25.8/14.8/8.3 (BP = 1.000 ratio = 1.144 hyp_len = 4451 ref_len = 3892)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.4.3"
+}
+
+BLEU score for beam size 10:
+{
+ "name": "BLEU",
+ "score": 22.2,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.4.3",
+ "verbose_score": "54.1/28.0/16.4/9.8 (BP = 1.000 ratio = 1.041 hyp_len = 4052 ref_len = 3892)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.4.3"
+}
+
+BLEU score for beam size 15:
+{
+ "name": "BLEU",
+ "score": 22.1,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.4.3",
+ "verbose_score": "55.6/29.1/17.4/10.4 (BP = 0.949 ratio = 0.950 hyp_len = 3699 ref_len = 3892)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.4.3"
+}
+
+BLEU score for beam size 20:
+{
+ "name": "BLEU",
+ "score": 21.8,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.4.3",
+ "verbose_score": "57.9/31.3/19.1/11.6 (BP = 0.864 ratio = 0.873 hyp_len = 3397 ref_len = 3892)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.4.3"
+}
+
+BLEU score for beam size 25:
+{
+ "name": "BLEU",
+ "score": 21.4,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.4.3",
+ "verbose_score": "59.7/33.4/20.9/12.8 (BP = 0.790 ratio = 0.809 hyp_len = 3150 ref_len = 3892)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.4.3"
+}
+

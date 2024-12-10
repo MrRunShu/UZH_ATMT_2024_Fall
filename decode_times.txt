@@ -1,0 +1,6 @@
+Decoding time for beam size 1: 22 seconds
+Decoding time for beam size 5: 45 seconds
+Decoding time for beam size 10: 115 seconds
+Decoding time for beam size 15: 227 seconds
+Decoding time for beam size 20: 356 seconds
+Decoding time for beam size 25: 643 seconds
